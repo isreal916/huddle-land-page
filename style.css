@@ -15,7 +15,6 @@ body{
   
   /* height:200px; */
 
-  border: 2px solid green;
   background-image: url('./images/bg-hero-desktop.svg');
 
 
@@ -43,9 +42,11 @@ justify-content: space-around;
 .desc-talk h1{
   font-family: "Poppins", sans-serif;
 width:70%;
+
 }
 .desc-talk p{
   font-family: "Poppins", sans-serif;
+ 
 width:70%;
 }
  button{
@@ -65,11 +66,14 @@ width:100%
 
 }
 .footer-links{
+  margin-top:60px
+
+}
+.footer-a{
   color:white;
 
   display: flex ;
   justify-content: space-between;
-  margin-top:60px
 }
 .footer-links span{
   
@@ -88,7 +92,7 @@ width:100%
   width:fit-content;
   padding:20px;
   text-align: center;
-  margin:auto;
+  /* margin:auto; */
   border-radius: 10px;
   position:absolute;
   right:35%;
@@ -107,6 +111,11 @@ width:100%
   width:50%;
 
 }
+.socials img{
+  border:1px solid white;
+  padding:5px;
+  border-radius: 50%;
+}
 
 @media (max-width:475px){
   
@@ -122,7 +131,7 @@ width:100%
 flex-direction: column;
 align-items: center;
 
-  }
+  }f
   .desc-talk{
     margin-bottom:20px;
     align-items: center;
@@ -153,11 +162,14 @@ width: 100%;
 footer{
   width:475px;
 }
-.footer-links{
+.footer-a{
   flex-direction: column;
 }
 .cto{
   width: 90%;
   right:5%
+}
+.footer-links{
+  margin-top:150px;
 }
 }
